@@ -5,12 +5,24 @@ body {
     background-color: #c86666;
 }
 
+.nav a {
+    color: white;
+}
+
+.nav {
+    background-color: #e22c2c;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 .container {
     max-width: 800px;
-    /* margin: 50px auto; */
+    margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 h1, p {
