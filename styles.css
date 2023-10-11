@@ -5,14 +5,22 @@ body {
     background-color: #c86666;
 }
 
+h2 {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
 .nav a {
     color: white;
 }
 
 .nav {
+    height: 40px;
     background-color: #e22c2c;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
